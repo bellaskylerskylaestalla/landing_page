@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utility */
+.bg-dark{
+    background: #1f2937;
+    color: #fff;
+}
+
+/* colors and font styles */
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondary-text-bgdark{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.secondary-text-bgbright{
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.info-header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 35px;
+}
+
+div.review{
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.btn{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.header-link{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    cursor: pointer;
+}
+
+/* showcase sign up */
+.showcase.bg-dark{
+    display: flex;
+    padding: 100px 0 30px 0;
+}
+
+.sign-up{
+    width: 500px;
+    padding: 20px 25px 40px 200px;
+}
+
+.sign-up p.secondary-text-bgdark{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.img-1{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+/* showcase best-sellers */
+.best-sellers .secondary-text-bgbright{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.best-sellers ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.best-sellers ul div{
+    margin: 20px 20px 0px 0px;
+}
+
+.best-sellers ul img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    
+    border: 5px solid #3882f6;
+}
+
+/* showcase review */
+.review{
+    padding: 100px 260px;
+}
+
+.name{
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 10px 70px 0 0;
+}
+
+/* showcase subscription */
+.subscription{
+    background: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 50px;
+    display: flex;
+}
+
+.subscription div{
+    width: 500px;
+    margin: 0 50px;
+}
+
+.btn-1{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    background: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 30px 100px;
+    cursor: pointer;
+
+}
+
+
+/* footer */
+footer{
+    padding: 40px;
+    text-align: center;
+}
